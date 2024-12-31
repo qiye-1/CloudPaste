@@ -4521,14 +4521,6 @@ createApp({
 
   template: \`
   <div class="container">
-
-  <a href="https://github.com/ling-drag0n/CloudPaste" 
-     target="_blank" 
-     class="github-link" 
-     title="Visit GitHub"
-     v-html="githubIconSvg.__html">
-  </a>
-
   <button 
     class="theme-toggle" 
     @click="toggleTheme" 
